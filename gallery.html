@@ -1,85 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Bootstrap Modallery</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="src/css/bootstrap.modallery.min.css">
+  <meta charset="UTF-8">
+  <title>Bootstrap Modallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/bootstrap.modallery.min.css">
 </head>
 <body>
-<div class="container">
-<h2>Modallery Demo <small>click an image</small></h2>
-<div class="row">
-<div class="col-md-3">
-<img src="img/sm-1.jpg" data-to="img/lg-1.jpg" data-caption="This one has a caption" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-2.jpg" data-to="img/lg-2.jpg" data-caption="Here is a caption" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-3.jpg" data-to="img/lg-3.jpg" data-caption="This one also has a caption" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-4.jpg" data-to="img/lg-4.jpg" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-5.jpg" data-to="img/lg-5.jpg" data-caption="This one has a caption" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-6.jpg" data-to="img/lg-6.jpg" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-7.jpg" data-to="img/lg-7.jpg" data-caption="This one also has a caption" class="modallery">
-</div>
-<div class="col-md-3">
-<img src="img/sm-8.jpg" data-to="img/lg-8.jpg" class="modallery">
-</div>
-</div>
-<h2>Installation</h2><hr>
-<p>You'll need to import 2 files:</p>
-<ul>
-  <li>JS: <code>bootstrap.modallery.min.js</code></li>
-  <li>CSS: <code>bootstrap.modallery.min.css</code> (Optional. Just import if you want to use navigation or customize)</li>
-</ul>
-<p>Modallery also requires <em>bootstrap.min.js</em> and <em>jquery.min.js</em> to work.</p>
-<hr><h2>Usage</h2><hr>
-<p>It's simple. Just import the files, call the plugin <code>$(document).modallery();</code> and add the class <code>.modallery</code> on every image you want to show with a data attribute <code>data-to</code> refering which image should open.</p>
+  <div class="container">
+    <h2>Modallery Demo <small>click an image</small></h2>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img/sm-1.jpg" data-to="img/lg-1.jpg" data-caption="This one has a caption" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-2.jpg" data-to="img/lg-2.jpg" data-caption="Here is a caption" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-3.jpg" data-to="img/lg-3.jpg" data-caption="This one also has a caption" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-4.jpg" data-to="img/lg-4.jpg" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-5.jpg" data-to="img/lg-5.jpg" data-caption="This one has a caption" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-6.jpg" data-to="img/lg-6.jpg" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-7.jpg" data-to="img/lg-7.jpg" data-caption="This one also has a caption" class="modallery">
+      </div>
+      <div class="col-md-3">
+        <img src="img/sm-8.jpg" data-to="img/lg-8.jpg" class="modallery">
+      </div>
+    </div>
+    <h2>Installation</h2><hr>
+    <p>You'll need to import 2 files:</p>
+    <ul>
+      <li>JS: <code>bootstrap.modallery.min.js</code></li>
+      <li>CSS: <code>bootstrap.modallery.min.css</code> (Optional. Just import if you want to use navigation or customize)</li>
+    </ul>
+    <p>Modallery also requires <em>bootstrap.min.js</em> and <em>jquery.min.js</em> to work.</p>
+    <hr><h2>Usage</h2><hr>
+    <p>It's simple. Just import the files, call the plugin <code>$(document).modallery();</code> and add the class <code>.modallery</code> on every image you want to show with a data attribute <code>data-to</code> refering which image should open.</p>
 
-<p><b>Example:</b></p>
-<pre>&lt;div class="col-md-3"&gt;
-&lt;img src="img/sm-1.jpg" data-to="img/lg-1.jpg" class="modallery"&gt;
-&lt;/div&gt;
-&lt;div class="col-md-3"&gt;
-&lt;img src="img/sm-2.jpg" data-to="img/lg-2.jpg" class="modallery"&gt;
-&lt;/div&gt;
-&lt;div class="col-md-3"&gt;
-&lt;img src="img/sm-3.jpg" data-to="img/lg-3.jpg" class="modallery"&gt;
-&lt;/div&gt;
-&lt;div class="col-md-3"&gt;
-&lt;img src="img/sm-4.jpg" data-to="img/lg-4.jpg" class="modallery"&gt;
-&lt;/div&gt;</pre>
+    <p><b>Example:</b></p>
+    <pre>&lt;div class="col-md-3"&gt;
+      &lt;img src="img/sm-1.jpg" data-to="img/lg-1.jpg" class="modallery"&gt;
+      &lt;/div&gt;
+      &lt;div class="col-md-3"&gt;
+      &lt;img src="img/sm-2.jpg" data-to="img/lg-2.jpg" class="modallery"&gt;
+      &lt;/div&gt;
+      &lt;div class="col-md-3"&gt;
+      &lt;img src="img/sm-3.jpg" data-to="img/lg-3.jpg" class="modallery"&gt;
+      &lt;/div&gt;
+      &lt;div class="col-md-3"&gt;
+      &lt;img src="img/sm-4.jpg" data-to="img/lg-4.jpg" class="modallery"&gt;
+      &lt;/div&gt;
+    </pre>
 
 
-<hr><h2>Options</h2><hr>
-<p><b>- Data attributes</b></p>
-<p><b><em>data-caption</em></b><br>Just add this in the <code>&lt;img&gt;</code> tag and a caption will appear below the image.</p>
-<p><b> - JavaScript attributes</b></p>
-<p>Set the options below inside <code>.modallery()</code> call.</p>
-<p><b><em>size</em></b><br>Default: empty. Sets the Bootstrap available sizes for modals: <u>sm</u> or <u>lg</u></p>
-<p><b><em>caller</em></b><br>Default: 'modallery'<br>Changes the class who Modallery should find.</p>
-<p><b><em>title</em></b><br>Default: 'Image Gallery'<br>Changes the modal gallery title.</p>
-<p><b><em>navigate</em></b><br>Default: false<br>Displays a modal footer with links to the others images on gallery.</p>
-</div>
+    <hr><h2>Options</h2><hr>
+    <p><b>- Data attributes</b></p>
+    <p><b><em>data-caption</em></b><br>Just add this in the <code>&lt;img&gt;</code> tag and a caption will appear below the image.</p>
+    <p><b> - JavaScript attributes</b></p>
+    <p>Set the options below inside <code>.modallery()</code> call.</p>
+    <p><b><em>size</em></b><br>Default: empty. Sets the Bootstrap available sizes for modals: <u>sm</u> or <u>lg</u></p>
+    <p><b><em>caller</em></b><br>Default: 'modallery'<br>Changes the class who Modallery should find.</p>
+    <p><b><em>title</em></b><br>Default: 'Image Gallery'<br>Changes the modal gallery title.</p>
+    <p><b><em>navigate</em></b><br>Default: false<br>Displays a modal footer with links to the others images on gallery.</p>
+  </div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='src/js/bootstrap.modallery.min.js'></script>
-<script>
-$(document).modallery({
-title: 'The Beauty of the World',
-navigate: true,
-});
-</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src='src/js/bootstrap.modallery.min.js'></script>
+  <script>
+    $(document).modallery({
+      title: 'The Beauty of the World',
+      navigate: true,
+    });
+  </script>
 </body>
 </html>
