@@ -49,19 +49,35 @@ Set the options below inside `.modallery()` call.
 **_size_**
 
 Default: empty.
+
 Sets the Bootstrap available sizes for modals: <u>sm</u> or <u>lg</u>
 
 **_caller_**
 
-Default: 'modallery'
+Default: '.modallery'
+
 Changes the class who Modallery should find.
 
 **_title_**
 
 Default: 'Image Gallery'
+
 Changes the modal gallery title.
 
 **_navigate_**
 
 Default: false
+
 Displays a modal footer with links to the others images on gallery.
+
+**_arrows_**
+
+Default: false
+
+Displays two buttons for navigation between images on modal.
+
+**_keypress_**
+
+Default: false
+
+Allows to navigate between images using arrows keys.
