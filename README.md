@@ -3,6 +3,8 @@ Magically create images galleries in boostrap modals
 
 * [Demo](https://github.com/lhcgoncalves/bootstrap-modallery/blob/master/gallery.html)
 
+![Demo Screenshot](https://s16.postimg.org/gpj9eoqc5/Screenshot_from_2017-04-20_12_09_04.png)
+
 # Installation
 
 You'll need to import 2 files:
