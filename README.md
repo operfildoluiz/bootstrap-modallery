@@ -66,10 +66,3 @@ Changes the modal gallery title.
 **_navigate_**  
 Default: false  
 Displays a modal footer with links to the others images on gallery.
-
- <script>$(document).modallery({
-title: 'The Beauty of the World',
-navigate: true,
-});</script> 
-
-</pre>
