@@ -2,7 +2,7 @@
 Magically create images galleries in boostrap modals
 
 * [Demo in JSFiddle](https://jsfiddle.net/lhcgoncalves/fLtsnqx7/)
-* [Demo in Bootsnipp](http://bootsnipp.com/user/snippets/7Kg8l)
+* [Demo in Bootsnipp](http://bootsnipp.com/snippets/7Kg8l)
 
 ![Demo Screenshot](https://s16.postimg.org/gpj9eoqc5/Screenshot_from_2017-04-20_12_09_04.png)
 
