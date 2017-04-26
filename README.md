@@ -20,6 +20,7 @@ Modallery also requires _bootstrap.min.js_ and _jquery.min.js_ to work.
 It's simple. Just import the files, call the plugin `$(document).modallery();` and add the class `.modallery` on every image you want to show with a data attribute `data-to` refering which image should open.
 
 CDN:
+JsDelivr: http://www.jsdelivr.com/projects/bootstrap-modallery
 
 https://rawgit.com/lhcgoncalves/bootstrap-modallery/master/src/js/bootstrap.modallery.min.js
 https://rawgit.com/lhcgoncalves/bootstrap-modallery/master/src/css/bootstrap.modallery.min.css
@@ -45,11 +46,14 @@ https://rawgit.com/lhcgoncalves/bootstrap-modallery/master/src/css/bootstrap.mod
 
 **- Data attributes**
 
+**_data-to_** (required)
+
+Defines which target image should be displayed in the modal.
+
 **_data-caption_** (optional)
+
 Just add this in the `<img>` tag and a caption will appear below the image.
 
-**_data-to_** (required)
-Defines which target image should be displayed in the modal.
 
  **- JavaScript attributes**
 
