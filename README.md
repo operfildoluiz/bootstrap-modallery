@@ -1,7 +1,8 @@
 # bootstrap-modallery
 Magically create images galleries in boostrap modals
 
-* [Demo in JSFiddle](https://jsfiddle.net/dukho7pa/1/)
+* [Demo in JSFiddle](https://jsfiddle.net/lhcgoncalves/dukho7pa/4/)
+* [Demo in Bootsnipp](http://bootsnipp.com/user/snippets/7Kg8l)
 
 ![Demo Screenshot](https://s16.postimg.org/gpj9eoqc5/Screenshot_from_2017-04-20_12_09_04.png)
 
@@ -17,6 +18,11 @@ Modallery also requires _bootstrap.min.js_ and _jquery.min.js_ to work.
 ## Usage
 
 It's simple. Just import the files, call the plugin `$(document).modallery();` and add the class `.modallery` on every image you want to show with a data attribute `data-to` refering which image should open.
+
+CDN:
+
+https://rawgit.com/lhcgoncalves/bootstrap-modallery/master/src/js/bootstrap.modallery.min.js
+https://rawgit.com/lhcgoncalves/bootstrap-modallery/master/src/css/bootstrap.modallery.min.css
 
 **Example:**
 
@@ -39,8 +45,11 @@ It's simple. Just import the files, call the plugin `$(document).modallery();` a
 
 **- Data attributes**
 
-**_data-caption_**
+**_data-caption_** (optional)
 Just add this in the `<img>` tag and a caption will appear below the image.
+
+**_data-to_** (required)
+Defines which target image should be displayed in the modal.
 
  **- JavaScript attributes**
 
